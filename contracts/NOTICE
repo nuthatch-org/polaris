@@ -1,0 +1,38 @@
+Polaris Contracts
+Copyright 2026 Polarity
+
+This product is derived from The Graph Protocol contracts:
+
+  The Graph Protocol Contracts and Horizon
+  Copyright 2018–2025 Graph Protocol, Inc. and contributors
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Upstream contributors include, but are not limited to:
+    Tomás Migone
+    Pablo Carranza Vélez
+    Miguel de Elias
+    Justin Grana
+    Howard Heaton
+    Bryan Cole
+    Severiano Sisneros
+    Alexis Asseman
+    Zachary Burns
+    Theo Butler
+    Gokay Saldamli
+    Tomasz Kornuta
+    and the broader graphprotocol/contracts contributor set
+
+  Originating repositories:
+    https://github.com/graphprotocol/contracts
+    https://github.com/graphprotocol/horizon
+
+Polaris modifications are documented in DESIGN-LOG.md and in the GitLab issue
+tracker at https://gitlab.com/polarity/contracts/-/issues.
+
+All Polaris-originated modifications are licensed under the Apache License,
+Version 2.0.
