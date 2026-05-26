@@ -1,0 +1,20 @@
+[profile.default]
+src = 'contracts'
+out = 'build'
+libs = ["node_modules"]
+test = 'test'
+cache_path = 'cache_forge'
+fs_permissions = [{ access = "read", path = "./" }]
+solc_version = '0.8.35'
+evm_version = 'cancun'
+ignored_warnings_from = ["node_modules"]
+no_match_coverage = "(^test/|/mocks/)"
+
+[profile.prod]
+optimizer = true
+optimizer_runs = 100
+via_ir = true
+
+[lint]
+lint_on_build = false
+exclude_lints = ["mixed-case-function", "mixed-case-variable", "block-timestamp"]

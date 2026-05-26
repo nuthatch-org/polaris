@@ -1,0 +1,9 @@
+build/
+cache_forge/
+node_modules/
+.env
+*.env
+typechain/
+typechain-types/
+artifacts/
+cache/
