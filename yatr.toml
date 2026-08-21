@@ -20,20 +20,20 @@ no_cache = true
 desc = "Fail if the Solidity is unformatted"
 run = ["forge fmt --check"]
 cwd = "contracts"
-sources = ["contracts/**/*.sol"]
+sources = ["**/*.sol"]
 
 [tasks.build]
 desc = "Compile the contracts"
 run = ["forge build"]
 cwd = "contracts"
-sources = ["contracts/**/*.sol", "contracts/foundry.toml", "contracts/remappings.txt"]
+sources = ["**/*.sol", "foundry.toml"]
 
 [tasks.test]
 desc = "Run the Forge test suite"
 run = ["forge test"]
 cwd = "contracts"
-sources = ["contracts/**/*.sol", "contracts/foundry.toml"]
-watch = ["contracts/**/*.sol"]
+sources = ["**/*.sol", "foundry.toml"]
+watch = ["**/*.sol"]
 
 [tasks.gas]
 desc = "Test with a gas report"
